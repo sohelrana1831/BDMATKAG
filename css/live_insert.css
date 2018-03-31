@@ -1,0 +1,116 @@
+
+.header{
+	
+	background: #013EA9;
+}
+
+.button{
+	
+	background: #013EA9;
+	height:50px;
+}
+
+.button a {
+	background: #3D589F;
+	text-align: center;
+	margin: 6px 0 0 3px;
+	font-weight: 700;
+}
+.button a:hover {
+	background: #84A0F4;
+}
+
+.second{
+	
+	background: #000;
+
+}
+
+.date {
+	
+	background: #7A18BB;
+	height: 28px;
+	margin: 4px 0;
+}
+
+.date h4 {
+	font-size: 20px;
+    margin: 4px 0 0px 7px;
+    color: #fff;
+}
+
+.dhaka {
+	
+
+	margin: 4px 0 0 0;
+	padding: 0 0 0px 0;
+	border-radius: 2px;
+	text-align: center;
+}
+
+.dhaka h3 {
+	font-size: 21px;
+	color: #8675A9;
+	margin: 0;
+}
+
+.dhaka h5 {
+	font-size: 19px;
+	font-weight: 700;
+
+}
+
+.dhaka h6 {
+	font-size: 13px;
+	color: #583464;
+	font-weight: 700;
+	margin-bottom: 13px;
+}
+
+.open {
+	background: #fff;
+	
+
+	border: 5px solid #70303E;
+	border-top: 0;
+}
+
+.yellow {
+	
+	background: #FFFB01;
+	height: 100px;
+	border-bottom: 1px solid rgb(0, 0, 0, 0.33);
+}
+
+.refresh {
+	background: #FFD505;
+	
+	margin: 12px 2px;
+	height: 45px;
+	border: 4px solid #000;
+	border-radius: 6px ;
+}
+
+.refresh a {
+	display: inline-block;
+	text-align: center;
+	height: 16px;
+	background: #fff;
+	padding: 1px 3px 0 3px;
+	margin: 4px 0 0 81px;
+	font-size: 12px;
+}
+
+.span1 {
+	display: block;
+	background: rgb(0, 0, 0, 0.33);
+	height: 1px;
+	margin: 15px 4px 13px 4px;
+}
+
+.span2 {
+	display: block;
+	background: rgb(0, 0, 0, 0.33);
+	height: 1px;
+	margin: 4px 1px;
+}
