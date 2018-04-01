@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 31, 2018 at 01:51 PM
+-- Generation Time: Mar 31, 2018 at 02:57 PM
 -- Server version: 10.1.25-MariaDB
 -- PHP Version: 7.1.7
 
@@ -80,14 +80,7 @@ CREATE TABLE `info` (
 --
 
 INSERT INTO `info` (`id`, `dhaka_text`, `dhaka_time`, `chittagong_text`, `chittagong_time`, `sylet_text`, `sylet_time`) VALUES
-(1, '480 x 21 x 489', '08:50 PM TO 11:50 PM', '567 x89 x 379', '09:00 PM TO 11:45 PM', 'hjfgj', '0jtgfgj'),
-(2, 'kkgkg', 'gkgkgk', 'gkgkgk', 'gkgkgk', 'gkgkgk', 'gkkgkg'),
-(3, 'hfdhfh', 'dfhdsh', 'dhdh', 'dhdhdsh', 'dfhdh', 'dhdhdsh'),
-(4, 'k', '12:30 AM TO 3:30 pm', 'Rana', 'fgjfjfjfgj', '09:15 PM TO 12:30 AM', '555 x55 x 55'),
-(5, 'fjuhfj', 'fjfj', '', '', '', ''),
-(6, 'sohel', '', '', '', '', ''),
-(7, '', '', 'ggg', '', '', ''),
-(8, '480 x 21 x 480', '12:30 AM TO 3:30 AM', '567 x89 x 370', '2:30 AM TO 5:30 AM', '09:15 PM TO 12:30 AM', '555 x55 x 55');
+(1, '480 x 21 x 480', '12:30 AM TO 3:30 AM', '567 x89 x 370', '2:30 AM TO 5:30 AM', '09:15 PM TO 12:30 AM', '555 x55 x 55555');
 
 -- --------------------------------------------------------
 
@@ -125,27 +118,7 @@ CREATE TABLE `live_day` (
 --
 
 INSERT INTO `live_day` (`id`, `dhaka_fr`, `chittagong_fr`, `sylet_fr`, `dhaka_sa`, `chittagong_sa`, `sylet_sa`, `dhaka_su`, `chittagong_su`, `sylet_su`, `dhaka_mo`, `chittagong_mo`, `sylet_mo`, `dhaka_tu`, `chittagong_tu`, `sylet_tu`, `dhaka_we`, `chittagong_we`, `sylet_we`, `dhaka_th`, `chittagong_th`, `sylet_th`) VALUES
-(1, 'hf', 'fhfd', 'fghf', 'fdhfd', 'fhfd', 'fghfd', 'fghfd', 'fghfdh', 'fgh', 'fdghfd', 'fhd', 'fdgh', 'fgh', 'fdh', 'fdh', 'dfgh', 'fdh', 'dfhg', 'fdgh', 'fgh', 'fdgh'),
-(2, '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''),
-(3, '1', '5', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21'),
-(4, '1', '5', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21'),
-(5, 'jfgdj', 'fdjdfjdf', 'fdjdfj', 'fdjdfj', 'fdjdfjdf', 'fdjdfj', 'fdjfdj', 'fdjfdj', 'fjddfjfdj', 'fjdfdj', 'dfjdfj', 'fjdfj', 'fdjfdj', 'fjfdj', 'fdjfdj', 'fjfdjdfj', 'fdjdfjdfj', 'fjdfjfd', 'fjfdjfd', 'fdjfdj', 'fdjdfj'),
-(6, 'jfgdj', 'fdjdfjdf', 'fdjdfj', 'fdjdfj', 'fdjdfjdf', 'fdjdfj', 'fdjfdj', 'fdjfdj', 'fjddfjfdj', 'fjdfdj', 'dfjdfj', 'fjdfj', 'fdjfdj', 'fjfdj', 'fdjfdj', 'fjfdjdfj', 'fdjdfjdfj', 'fjdfjfd', 'fjfdjfd', 'fdjfdj', 'fdjdfj'),
-(7, 'jfgdj', 'fdjdfjdf', 'fdjdfj', 'fdjdfj', 'fdjdfjdf', 'fdjdfj', 'fdjfdj', 'fdjfdj', 'fjddfjfdj', 'fjdfdj', 'dfjdfj', 'fjdfj', 'fdjfdj', 'fjfdj', 'fdjfdj', 'fjfdjdfj', 'fdjdfjdfj', 'fjdfjfd', 'fjfdjfd', 'fdjfdj', 'fdjdfj'),
-(8, 'jfgjfdj', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''),
-(9, 'jfgjfdj', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''),
-(10, 'jfgjfdj', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''),
-(11, 'yht', '', '', '', '', '', '', '', '', '', '', '', '', 'ty', '', '', '', '', '', '', ''),
-(12, 'jkk', '', '', 'tktk', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''),
-(13, 'gdsg', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''),
-(14, '', 'fdsh', '', 'gbdfg', 'fdsh', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''),
-(15, 'uyyuoy', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''),
-(16, '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''),
-(17, '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''),
-(18, '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''),
-(19, 'gh', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''),
-(20, 'www', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''),
-(21, '1', '5', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21');
+(1, '1', '2', '3', 'fdhfd', 'fhfd', 'fghfd', 'fghfd', 'fghfdh', 'fgh', 'fdghfd', 'fhd', 'fdgh', 'fgh', 'fdh', 'fdh', 'dfgh', 'fdh', 'dfhg', 'fdgh', 'fgh', 'fdgh');
 
 --
 -- Indexes for dumped tables
@@ -198,7 +171,7 @@ ALTER TABLE `info`
 -- AUTO_INCREMENT for table `live_day`
 --
 ALTER TABLE `live_day`
-  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;COMMIT;
+  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

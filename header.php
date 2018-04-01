@@ -1,3 +1,10 @@
+<?php 
+    require_once("database/configer.php");
+
+    $news_sql = "SELECT * FROM `news` WHERE 1";
+    $news_result = mysqli_query($conn, $news_sql);
+    $news_row = $news_result->fetch_assoc();
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -29,7 +36,7 @@
         <h3>Welcome To BDMATKAG</h3>
     </div>
     <div class="news">
-        <marquee><h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, adipisci.</h4></marquee>
+        <marquee><h4><?php  echo $news_row['news'];?></h4></marquee>
     </div>
 </div>
 <!--
